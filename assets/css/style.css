@@ -52,6 +52,7 @@ img {
 
 .hero__container {
   padding: 5rem 2.5rem;
+  overflow: hidden;
 }
 
 .about-us__container {
@@ -269,4 +270,23 @@ img {
   .about-us__image img {
     width: min(100%, 500px);
   }
+}
+
+/* custom scrollbar */
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--white-1);
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 2px solid var(--white-1);
+  background-color: var(--primary-blue-1);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-blue-5);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: var(--grey-10);
 }
