@@ -1,46 +1,46 @@
-# MentorMeInTech
+# MentorMeInTech ✨
 
 Codebase for the MentorMeInTech landing page.
 
-Figma: https://www.figma.com/file/8K3Xa5T6VkDkN9GKoygDtm/Mentor-Me-In-Tech-(Landing-page)
+Figma: [Mentor Me In Tech (Landing Page)](https://www.figma.com/file/8K3Xa5T6VkDkN9GKoygDtm/Mentor-Me-In-Tech-(Landing-page))
 
-## Tech Stack
+## Tech Stack 🛠️
 
-- HTML
-- CSS
-- JavaScript
+- HTML 🌐
+- CSS 🎨
+- JavaScript ⚙️
 
-## Contributing
+## Contributing 🤝
 
-### Setup
+### Setup 🚀
 
-1. Clone the repository
-2. Open `index.html` in your browser
+1. Clone the repository 📂
+2. Open `index.html` in your browser 🌐
 
-### Workflow
+### Workflow 📝
 
-1. Create a new branch
-2. Make your changes
-3. Commit your changes
-4. Push your changes
-5. Create a pull request
+1. Create a new branch 🌿
+2. Make your changes ✏️
+3. Commit your changes 💾
+4. Push your changes 🚀
+5. Create a pull request 🔄
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 ##
 
-### Setup (Fork)
+### Setup (Fork) 🍴
 
-1. Fork the repository
-2. Clone the forked repository
-3. Open `index.html` in your browser
+1. Fork the repository 🍽️
+2. Clone the forked repository 📂
+3. Open `index.html` in your browser 🌐
 
-### Workflow (Fork)
+### Workflow (Fork) 📝
 
-1. Make your changes
-2. Commit your changes
-3. Push your changes
-4. Create a pull request
+1. Make your changes ✏️
+2. Commit your changes 💾
+3. Push your changes 🚀
+4. Create a pull request 🔄
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
