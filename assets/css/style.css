@@ -180,6 +180,7 @@ img {
 /* Register Section */
 .register__section {
 	background: var(--grey-11);
+  position: relative;
 }
 .register__container {
 	display: flex;
@@ -270,4 +271,9 @@ option{
 
 .register__button:hover {
 	background: var(--primary-blue-5);
+}
+
+img.wavy-icon{
+  width: 100px;
+  position: absolute;
 }
