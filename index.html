@@ -86,22 +86,29 @@
       - Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
       - Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/2728.svg
       - Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-    -->
-	</head>
-	<body>
-		<main>
-			<!-- Start: Hero Section -->
-			<section class="hero">
-				<div class="hero__container">
-					<div class="hero-content">
-						<div class="hero__decoration">
-							<img
-								src="./assets/images/waving-hand-emoji.svg"
-								alt="waving hand emoji"
-							/>
-							<span>MentorMeInTech</span>
-						</div>
+     -->
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <!-- Start: Hero Section -->
+      <section class="hero">
+        <div class="hero__container">
+          <div
+            class="hero-content flex-1"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div class="hero__decoration">
+              <img
+                src="./assets/images/waving-hand-emoji.svg"
+                alt="waving hand emoji"
+              />
+              <span>MentorMeInTech</span>
+            </div>
+            
 						<div class="hero__title">
 							Do you have the Dream and Drive to Learn and
 							<span class="blue-text">Transition into Tech</span>?
@@ -113,30 +120,72 @@
 							dedicated to helping you achieve your goals and dreams in tech.
 						</div>
 
-						<div class="hero__cta">
-							<a href="#" class="join-today">Join Today</a>
-							<a
-								href="https://example.com"
-								target="_blank"
-								rel="noopener"
-								class="learn-more blue-text"
-								><span>Learn More</span
-								><img src="./assets/images/arrow-outward.svg" alt="arrow icon"
-							/></a>
-						</div>
-					</div>
+            <div class="hero__cta">
+              <a href="#" class="join-today">Join Today</a>
 
-					<div class="hero-image">
-						<img src="./assets/images/hero-image.png" alt="" />
-					</div>
-				</div>
-				<div class="hero__ellipse">
-					<img src="./assets/images/top-right-ellipse.svg" alt="" />
-				</div>
-			</section>
-			<!-- End: Hero Section -->
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener"
+                class="learn-more blue-text"
+                ><span>Learn More</span
+                ><img src="./assets/images/arrow-outward.svg" alt="arrow icon"
+              /></a>
+            </div>
+          </div>
 
-			<!--Register Section-->
+          <div
+            class="hero-image flex-1"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <img src="./assets/images/hero-image.png" alt="" />
+          </div>
+        </div>
+        <div class="hero__ellipse">
+          <img src="./assets/images/top-right-ellipse.svg" alt="" />
+        </div>
+      </section>
+      <!-- End: Hero Section -->
+
+      <!-- Start: About Us Section -->
+      <section class="about-us">
+        <div class="about-us__container">
+          <div class="about-us__content flex-1" data-aos="fade-right">
+            <div class="about-us__title">About Us</div>
+
+            <div class="about-us__description">
+              MentorMeInTech (MMIT) is a community driven platform that provides
+              free mentorship and guidance to Africans transitioning into Tech.
+              To bridge the gap between Africans interested in building a career
+              in tech and willing professionals with expertise to guide them on
+              their journey. We can accomplish these with the 3 keys: Mentoring
+              sessions, Partnerships with Edutech platforms and an inclusive
+              community.
+            </div>
+
+            <div class="about-us__cta">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener"
+                class="learn-more blue-text"
+                ><span>Learn More</span
+                ><img src="./assets/images/arrow-outward.svg" alt="arrow icon"
+              /></a>
+
+              <a href="#" class="start-today">Start Today</a>
+            </div>
+          </div>
+
+          <div class="about-us__image flex-1" data-aos="fade-left">
+            <img src="./assets/images/about-us-image.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- End: About Us Section -->
+    
+    <!--Register Section-->
 			<section class="register__section">
         <img src="./assets/images/Path.svg " alt="wavy-icon" id="icon1" class="vavy-icon">
 				<div class="register__title">
@@ -199,6 +248,16 @@
 				</div>
         <img src="./assets/images/Path.svg" alt="wavy-icon" id="icon2" class="wavy-icon">
 			</section>
-		</main>
-	</body>
+    </main>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        startEvent: 'load',
+      });
+    </script>
+  
+  </body>
 </html>
