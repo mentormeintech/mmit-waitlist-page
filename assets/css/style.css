@@ -229,7 +229,8 @@ img {
 
 /* Register Section */
 .register__section {
-  background: var(--grey-11);
+	background: var(--grey-11);
+  position: relative;
 }
 .register__container {
   display: flex;
