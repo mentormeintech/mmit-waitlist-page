@@ -224,6 +224,7 @@ img {
 /* Register Section */
 .register__section {
 	background: var(--grey-11);
+  position: relative;
 }
 .register__container {
 	display: flex;
@@ -316,6 +317,10 @@ option{
 	background: var(--primary-blue-5);
 }
 
+img.wavy-icon{
+  width: 100px;
+  position: absolute;
+=======
 /* About Us Section */
 .about-us {
   width: 100%;
@@ -385,4 +390,5 @@ option{
 
 *::-webkit-scrollbar-thumb:active {
   background-color: var(--grey-10);
+
 }
