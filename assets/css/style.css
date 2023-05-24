@@ -326,7 +326,7 @@ option {
 	height: 56px;
 	border-radius: 100px;
 	border: none;
-	background: var(--primary-blue-1);
+	background: var(--primary-purple-1);
 	color: var(--white);
 	cursor: pointer;
 	font-size: 20px;
