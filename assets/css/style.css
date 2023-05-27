@@ -1128,6 +1128,10 @@ img {
 	width: 100%;
 }
 
+#reg__img {
+	margin-left: -35px;
+}
+
 .register__form {
 	display: flex;
 	flex-direction: column;
@@ -1137,7 +1141,7 @@ img {
 	row-gap: -28px;
 	width: 550px;
 	/* height: 616px; */
-	padding-left: 25px;
+	padding-left: 31px;
 }
 
 .register__form input,
