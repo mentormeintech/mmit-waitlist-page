@@ -1667,7 +1667,7 @@ img#feature__img1 {
 	cursor: pointer;
 }
 
-.faq__card__info p {
+.faq-info {
 	display: none;
 }
 
@@ -1677,25 +1677,31 @@ img.faq__icon {
 }
 
 .faq__card__info {
-    margin-left: 1rem;
+	margin-left: 1rem;
 }
 
-.faq__card__info h2{
+.faq__card__info h2 {
 	margin-left: -1.5rem;
 }
 
-@media screen and (width <= 1200px){
-	.faq__card{
+p.faq-info {
+    margin-left: -1.3rem;
+}
+
+
+@media screen and (width <= 1200px) {
+	.faq__card {
 		width: 700px;
 		margin-left: 0;
 	}
 }
 
-@media screen and (width <= 640px){
-	.faq__card{
+@media screen and (width <= 640px) {
+	.faq__card {
 		width: 350px;
 		font-size: 73%;
 	}
 	.faq__section {
-		margin-top: 13rem;}
+		margin-top: 13rem;
+	}
 }
