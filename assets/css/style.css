@@ -294,16 +294,27 @@ article ul li {
 	box-shadow: 0 3px 10px rgb(235, 240, 240);
 	border-radius: 10px;
 	cursor: pointer;
+    color: var(--black);
+    list-style-type: none;
+    width: 350px;
+    height: 280px;
+    box-shadow: 0 3px 10px rgb(219, 223, 223);  
+    border-radius: 10px;
+    cursor: pointer;
 	margin: 30px;
 }
 
 article ul li img {
 	margin-bottom: 15px;
 }
-article ul li h4 {
-	font-size: 1.5rem;
-	padding: 5px;
-	margin-bottom: 10px;
+article ul li img{
+    margin-bottom: 10px;    
+}
+article ul li h4{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 8px;
+    
 }
 article ul li p {
 	font-size: 1.1rem;
@@ -328,10 +339,10 @@ article ul li p {
 	font-size: 1.8rem;
 	margin-bottom: 10px;
 }
-.all p {
-	color: var(--black);
-	margin-bottom: 20px;
-	margin: 40p;
+.all p{
+    color: var(--black);;
+    margin-bottom: 20px;
+	margin:0 40px;
 	text-align: center;
 	font-size: 1.1rem;
 }
@@ -344,16 +355,16 @@ article ul li p {
 	flex-wrap: wrap;
 	gap: 30px;
 }
-.all .courses ul li {
-	flex-wrap: wrap;
-	width: 350px;
-	height: 360px;
-	list-style-type: none;
-	box-shadow: 0 3px 10px rgb(235, 240, 240);
-	border-radius: 20px;
-	cursor: pointer;
-	margin-top: 20px;
-	transition: 0.5s;
+.all .courses  ul li{
+    flex-wrap:wrap;
+    width: 350px;
+    height: 360px;
+    list-style-type: none;
+    box-shadow: 0 3px 10px rgb(219, 223, 223); 
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s;  
 	margin-bottom: 60px;
 }
 .all .courses ul li img {
@@ -381,11 +392,11 @@ article ul li p {
 	margin: 20px;
 }
 
-.all .courses ul li h4 {
-	color: var(--black);
-	text-align: center;
-	margin-top: 10px;
-	line-height: 1.3rem;
+.all .courses ul li h4{
+    color: var(--black);
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.3rem;
 }
 
 .all .courses ul p {
@@ -394,24 +405,29 @@ article ul li p {
 	margin: 10px;
 	padding-bottom: 10px;
 }
+@media screen and (max-width: 400px){
+    section {
+        
+        flex-direction: column;   
+    }
+    
+    section span{
+        text-align: center;
 
-@media screen and (max-width: 400px) {
-	section {
-		flex-direction: column;
-	}
-
-	section span {
+    }
+    section small{
+        font-size: .6rem;
+    }
+    section h3 {
+        font-size: 1.2rem;
+    } 
+    
+    section p{
+        font-size: 0.9rem;
+		padding:0 10px;
+    }
+	article{
 		text-align: center;
-	}
-	section small {
-		font-size: 0.6rem;
-	}
-	section h3 {
-		font-size: 1.2rem;
-	}
-
-	section p {
-		font-size: 0.9rem;
 	}
 
 	article ul li {
@@ -431,29 +447,48 @@ article ul li p {
 		align-items: center;
 	}
 
-	.all .courses ul li {
-		width: 270px;
-		height: 340px;
+    .all .courses  ul li{
+        
+        width: 270px;
+        height: 340px;  
+    }
+	.all .courses ul{
+		margin-left: 25px;
 	}
-	.all h4 {
-		font-size: 1.4rem;
+	.all small{
+		margin-left: 50px;
 	}
-	.all p {
-		font-size: 1.1rem;
-	}
-	.all .courses ul li img {
-		width: 80%;
-	}
-	.all .courses li:hover {
-		width: 300px;
-		height: 370px;
-	}
-	.all .courses ul li h4 {
-		margin-top: 5px;
-	}
-	.all .courses li:hover h4 {
-		font-size: 1.6rem;
-	}
+    .all h4{
+        
+        font-size: 1.4rem;
+		
+        
+    }
+    .all p{
+        font-size: 1.1rem;
+		margin-left: 85px;
+    
+    }
+    .all .courses ul li img{
+        width: 80%;
+    }
+    .all .courses li:hover{
+        
+        width: 300px;
+        height: 370px;
+        
+    }
+    .all .courses ul li h4{
+       
+        margin-top: 5px;
+        
+    }
+    .all .courses li:hover h4{
+     
+        font-size: 1.6rem;
+        
+    }
+
 }
 
 /* Register Section */
@@ -2152,4 +2187,5 @@ hr {
 		font-size: 10px;
 		line-height: 2;
 	}
-}
+  
+  }
