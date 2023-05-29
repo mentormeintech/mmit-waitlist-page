@@ -344,7 +344,7 @@ article ul li p {
 .all p{
     color: var(--black);;
     margin-bottom: 20px;
-	margin: 40p;
+	margin: 0 40px;
 	text-align: center;
 	font-size: 1.1rem;
 }
